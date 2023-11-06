@@ -3,9 +3,16 @@
     padding: 0;
 }
 body {
+    height: 100vh; /*viewport height - 100% da tela do navegador*/
+    box-sizing: border-box/*content-box*/; /*encolhe o elemento nao deixando o elemento filho sair do elemento pai, que neste caso e o body*/
     background-color: #000000;
     color: #F6F6F6;
 }
 .titulo-destaque {
     color: #22D4FD;
+}
+.apresentacao {
+    display: flex;
+    flex-direction: row;/*padrao*/
+    align-items: center;
 }
